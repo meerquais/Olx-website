@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', 'Times New Roman', Times, serif;
+}
+
+.mynav{
+    /* border: 1px solid red; */
+    margin-top: 100px !important;
+}
+.olx_nav{
+    padding: 0 !important;
+}
+.fontsize {
+    font-size: 15px;
+    color: #222222;
+}
+
+.newbtn {
+    padding: 10px;
+    border: 2px solid #002f34;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.newbtn:hover {
+    border: 4px solid #002f34;
+    padding: 8px;
+}
+
+/* olx header */
+.olx-logo img {
+    width: 70px;
+}
+.olx-logo:hover{
+    cursor: pointer;
+}
+.olx_svg:hover{
+    cursor: pointer;
+}
+.olx_anchor a{
+    font-size: 13px;
+    margin: 0px 20px;
+}
+.olx_anchor span:hover{
+    color: #3a77ff;
+    cursor:pointer;
+}
+.olx_anchor a:hover{
+    color: #3a77ff;
+
+}
+.select {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    width: 100%;
+    padding: 0px 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+}
+
+
+.select i {
+    font-size: 15px;
+    transition: all 0.3s;
+}
+
+.option-list-wrapper {
+    list-style: none;
+    /* border: 1px solid red; */
+    background-color: #fff;
+    display: none;
+    width: 90%;
+    position: absolute;
+    top: 5;
+    z-index: 5;
+}
+
+.option-list-wrapper li {
+    font-size: 15px;
+    margin-left: -30px;
+    /* border: 1px solid red; */
+}
+
+.option-list i {
+    color: #839a9c;
+}
+
+.drag-down {
+    margin-top: 110px;
+}
+
+.olx-search {
+    width: 100%;
+    padding: 5px;
+    border-radius: 6px;
+    outline: none;
+    border: 1px solid black;
+}
+
+.icon-position {
+    position: relative;
+}
+
+.olx-search:focus {
+    border-color: aqua;
+}
+
+.icon-mag {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+}
+.icon-mag:hover{
+    cursor: pointer;
+}
+.olx-btn {
+    text-decoration: none;
+    cursor: pointer;
+    /* background-color: white; */
+    /* border-radius: 15px; */
+    border: 6px solid transparent;
+    padding: 5px 10px;
+    border-image: url(../images/iconSellBorder_noinline.d9eebe038fbfae9f90fd61d971037e02.svg) 6 round;
+}
+
+.login {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    transition: all0.3s;
+    /* font-size: 18px; */
+    border-bottom: 1px solid black;
+}
+
+.login:hover {
+    border-bottom: none;
+}
+
+.footerlist ul {
+    list-style: none;
+}
+
+.footer-icon-img .google img {
+    width: 48px;
+}
